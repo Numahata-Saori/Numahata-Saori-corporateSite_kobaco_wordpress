@@ -3,7 +3,10 @@
 <main class="main page-wrap news-list ">
 	<div class=" ly-cont">
 		<div class="news__headline news-list__headline">
-			<h2 class="headline">お知らせ一覧</h2>
+			<h2 class="headline">
+				NEWS LIST
+				<span class="headline-sub">お知らせ一覧</span>
+			</h2>
 		</div>
 
 		<div class="news__conten">

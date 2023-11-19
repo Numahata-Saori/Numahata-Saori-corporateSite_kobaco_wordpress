@@ -41,15 +41,6 @@ else :
 <?php
 endif;
 ?>
-<?php
-// $argsFooter = array(
-// 	'menu' => 'footer-contact',
-// 	'menu_class' => 'contact__btn btn-wrap',
-// 	'add_a_class' => 'text-white',
-// 	'container' => 'div',
-// );
-// wp_nav_menu($argsFooter);
-?>
                     </div>
                 </div>
             </div>

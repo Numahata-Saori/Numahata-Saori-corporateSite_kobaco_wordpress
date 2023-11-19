@@ -1,18 +1,11 @@
 <?php
-/**
- * <title>タグを出力する
- */
-add_theme_support( 'title-tag' );
-
-
-/**
- *
- */
-
-/**
- * カスタムメニューを使用可能にする
- */
-add_theme_support('menus');
+function theme_setup() {
+	add_theme_support( 'title-tag' ); /* <title>タグを出力する */
+	add_theme_support( 'post-thumbnails' ); /* アイキャッチ画像対応 */
+	add_theme_support( 'menus' ); /* カスタムメニューを使用可能にする */
+	// add_theme_support( 'html5', array() );
+}
+add_action('after_setup_theme', 'theme_setup');
 
 
 /**
