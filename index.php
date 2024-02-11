@@ -6,7 +6,7 @@
         <div class="fv">
             <div class="fv__wrap">
                 <div class="fv__main-img">
-					<img src="<?php echo get_template_directory_uri(); ?>/img/top_city-img.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/top_city-img01.png" alt="">
                 </div>
             </div>
             <a class="fv__scroll" href="#next-section">
